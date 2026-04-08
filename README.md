@@ -40,6 +40,7 @@ final2
 ## 1️⃣ Clonar el repositorio
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/Sebbb-22/Final-MM.git
 cd final2
 ```
