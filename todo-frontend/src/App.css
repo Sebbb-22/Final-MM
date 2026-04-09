@@ -1,0 +1,95 @@
+body{
+  background:#ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  transition:0.3s;
+}
+
+.dark-mode{
+  background:#1e1e1e;
+  color:rgb(0, 0, 0);
+}
+
+.dark-mode .page-container{
+  background:#2a2a2a;
+}
+
+.container{
+  width:1000px;
+  margin:auto;
+  margin-top:40px;
+}
+
+.title{
+  text-align:center;
+  margin-bottom:20px;
+  color: #4c74af;
+  font-size: 50px;
+}
+
+.inputBox{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+.inputBox input{
+  flex:1;
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #4c74af;
+}
+
+.addBtn{
+  background:#4C74af;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.task{
+  background:white;
+  padding:10px;
+  border-radius:8px;
+  margin-bottom:10px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.completed{
+  text-decoration:line-through;
+  color:gray;
+}
+
+.buttons button{
+  margin-left:5px;
+  border:none;
+  padding:6px 10px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.view{
+  background:#a0aec4;
+  color:white;
+}
+
+.edit{
+  background:#ff8707;
+  color: white
+}
+
+.delete{
+  background:#cb3e34;
+  color:white;
+}
+
+.completed{
+  text-decoration: line-through;
+  color:gray;
+  opacity:0.6;
+  transition:0.3s;
+}
